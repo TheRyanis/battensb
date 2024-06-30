@@ -1,0 +1,186 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white !important;
+    border: none;
+    width: 100%;
+    z-index: 10;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-nav .nav-item .nav-link.custom-link {
+    color: #d3d3d3;
+    margin-left: 15px;
+    font-size: 16px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link.custom-link:hover {
+    transform: scale(1.1);
+    color: rgba(98, 93, 93, 1) !important;
+}
+
+.navbar-nav .btn.custom-btn {
+    margin-left: 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: rgba(98, 93, 93, 1);
+    border: 2px solid rgba(98, 93, 93, 1);
+    transition: transform 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar-nav .btn.custom-btn.active {
+    background-color: rgba(98, 93, 93, 1);
+    color: white;
+}
+
+.navbar-nav .btn.custom-btn:hover,
+.navbar-nav .btn.custom-btn.active:hover {
+    transform: scale(1.1);
+    background-color: rgba(98, 93, 93, 1) !important;
+    color: white !important;
+    border-color: rgba(98, 93, 93, 1) !important;
+}
+
+.btn.custom-btn-outline {
+    margin-left: 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: rgba(98, 93, 93, 1);
+    border: 2px solid rgba(98, 93, 93, 1);
+    transition: transform 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn.custom-btn-outline:hover {
+    transform: scale(1.1);
+    background-color: rgba(98, 93, 93, 1) !important;
+    color: white !important;
+    border-color: rgba(98, 93, 93, 1) !important;
+}
+
+.hero {
+    display: flex;
+    height: 55vh;
+}
+
+.hero-split {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-text {
+    color: #d3d3d3;
+    font-size: 20px;
+    background-color: rgba(98, 93, 93, 1);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.hero-image {
+    background-image: url('images/main_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.highlighted-txt {
+    color: #FFFF;
+    font-weight: bold;
+}
+
+.intro-text {
+    padding: 20px;
+    background-color: #FFFF;
+    color: #333;
+}
+
+.intro-text p {
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.section-divider {
+    width: 50%;
+    margin-top: 25px;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.buttons-and-content {
+    margin: 50px;
+    background-color: #FFFF;
+}
+
+.active {
+    background-color: rgba(98, 93, 93, 1) !important;
+    color: white !important;
+}
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group .btn {
+    margin-right: 10px;
+}
+
+.additional-text {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.services-section {
+    margin-top: 100px;
+    padding: 20px 0;
+    background-color: #FFFF;
+    color: #333;
+}
+
+.services-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.services-section .service-item {
+    margin-bottom: 30px;
+}
+
+.services-section .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.services-section .service-item p {
+    font-size: 18px;
+    line-height: 1.6;
+}
